@@ -1,1 +1,2 @@
 # one_led_bitwise_operators_push_button
+This project demonstrates a memory-efficient method for toggling an LED using a physical push-button. Instead of using standard Arduino API functions like digitalRead() or digitalWrite(), this implementation utilizes AVR Register Manipulation to interact directly with the ATmega328P hardware.  The code includes a robust Software Debounce algorithm to ensure clean signal transitions and a State Lock to prevent multiple toggles from a single button press.
